@@ -20,6 +20,7 @@ dumplog运行后会在当前目录下生成一个Eventlog.db文件，该文件�
 ### log_audit_web
 
 1. 安装python / tornado环境
+
 log_audit_web由python / tornado编写，使用前需要安装python 2.7及tornado。
 [tornado官网](http://www.tornadoweb.org/en/stable/)
 
@@ -38,6 +39,13 @@ define("dbName", default="Eventlog.db", help="database name")
 log_audit_web执行后，会在本地监听一个web端口，直接访问就可以查看日志了。
 ![](2.png)
 
+## 计划：
+
+1. 后端实现Windows日志集中管理系统（用golang重写）
+1. dumplog可将日志发送到管理系统中
+1. 支持完善的报表系统
+1. 支持各种关键字查询
+1. 
 
 如有问题请联系：root@xsec.io
 
