@@ -37,6 +37,7 @@ define("dbName", default="Eventlog.db", help="database name")
 
 3. 运行log_audit_web
 log_audit_web执行后，会在本地监听一个web端口，直接访问就可以查看日志了。
+[demo](http://log_audit.xsec.io/)
 ![](2.png)
 
 ## 计划：
